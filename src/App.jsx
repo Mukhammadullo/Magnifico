@@ -25,9 +25,9 @@ function App() {
             <li className='font-bold text-[14px] m-[15px]'>Pricing</li>
           </ul>
 
-          <div>
-            <button>Log In</button>
-            <button>Sign Up Free</button>
+          <div className='mr-[10px]'>
+            <button className='w-[100px]  h-[7vh]    text-[#2563EB]'>Log In</button>
+            <button className=' w-[150px] h-[7vh] text-[white] rounded-[12px] bg-[#2563EB]'>Sign Up Free</button>
           </div>
 
 
