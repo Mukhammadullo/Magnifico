@@ -8,9 +8,35 @@ function App() {
 
   return (
     <>
-    <p>Lorem20</p>
+
+      {/* header */}
+      <header className='w-[100%] h-[100vh]  border-solid border-red-500 border-[2px]'>
+        {/* navbar */}
+       
+
+      </header>
+
+
     </>
   )
 }
 
 export default App
+
+{/* <header>
+          <nav className='headerNavBar'>
+          <section></section>
+          </nav>
+        </header>
+        <main>
+          <section>
+            <section></section>
+            <section></section>
+            <section></section>
+          </section>
+          <section>
+            <article>
+
+            </article>
+          </section>
+        </main> */}
