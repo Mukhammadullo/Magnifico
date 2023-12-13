@@ -34,14 +34,22 @@ function App() {
 
 
         {/* maincards */}
-        <div>
+        <div className='w-[95%] m-auto flex justify-center'>
 
           {/* card_left */}
-          <div className='w-[50%] h-[10vh] border-solid border-red-700 border-[2px]'></div>
+          <div className='w-[50%] h-[85vh] border-solid border-red-700 border-[2px] flex flex-col justify-center'>
+            <h1 className='text-[60px] font-bold'>Team projects, <br /> done well</h1>
+            <p className='text-[#475569]'>The only platform that gives your team all the tools needed to work <br /> together on their awesome projects. </p>
+            <div>
+              <input placeholder='Enter work email'  className='w-[280px] h-[8vh] rounded-[12px] m-[12px] border-solid border-black-100 border-[2px] ' />
+              <button className=' w-[150px] h-[7vh] text-[white] rounded-[12px] bg-[#2563EB]'>Sign Up Free</button>
+              <img src='src/assets/1.png' />
+            </div>
+          </div>
 
 
           {/* card_right */}
-          <div className='w-[50%] h-[10vh] border-solid border-red-700 border-[2px]'></div>
+          <div className='w-[50%] h-[85vh] border-solid border-red-700 border-[2px]'></div>
 
         </div>
 
