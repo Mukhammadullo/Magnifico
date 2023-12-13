@@ -17,7 +17,7 @@ function App() {
         <div className='w-[100%] h-[12vh] border-solid border-purple-800 border-[2px] flex justify-between items-center'>
           <h1 className='font-bold text-[26px] ml-[10px]'>magnifico</h1>
 
-          <ul className='flex '>
+          <ul className='flex'>
             <li className='font-bold text-[14px] m-[15px]'>Products</li>
             <li className='font-bold text-[14px] m-[15px]'>Solutions</li>
             <li className='font-bold text-[14px] m-[15px]'>Services</li>
@@ -30,9 +30,20 @@ function App() {
             <button className=' w-[150px] h-[7vh] text-[white] rounded-[12px] bg-[#2563EB]'>Sign Up Free</button>
           </div>
 
-
         </div>
 
+
+        {/* maincards */}
+        <div>
+
+          {/* card_left */}
+          <div className='w-[50%] h-[10vh] border-solid border-red-700 border-[2px]'></div>
+
+
+          {/* card_right */}
+          <div className='w-[50%] h-[10vh] border-solid border-red-700 border-[2px]'></div>
+
+        </div>
 
       </header>
 
