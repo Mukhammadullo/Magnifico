@@ -83,6 +83,12 @@ function App() {
         </div>
       </section>
 
+
+      {/* section3 */}
+      <section className='w-[95%] h-[65vh] rounded-[12px] m-auto border-solid border-red-500 border-[2px]'>
+        <img/>
+      </section>
+
     </>
   )
 }
