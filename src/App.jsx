@@ -111,6 +111,15 @@ function App() {
       </section>
 
 
+      {/* section5 */}
+      <section className='w-[95%] h-[40vh]  m-auto rounded-[12px] bg-[#312E81] flex flex-col justify-center items-center'>
+        <h1 className='text-[35px] font-bold'>Join the community today</h1>
+        <p className='text-[white] m-[10px]'>Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque pellentesque donec et tellus ac <br /> varius tortor, bibendum. Nulla felis ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</p>
+        <button className=' w-[150px] h-[7vh] text-[white] rounded-[12px] bg-[#2563EB]'>Sign Up Free</button>
+
+      </section>
+
+
       {/* footer */}
 
       <footer className='w-[100%] h-[10vh]  flex justify-between items-center'>
