@@ -9,10 +9,15 @@ function App() {
   return (
     <>
 
-      {/* header */}
+
+
+      {/*# header */}
       <header className='w-[100%] h-[100vh]  border-solid border-red-500 border-[2px]'>
         {/* navbar */}
-       
+        <div className='w-[100%] h-[12vh] border-solid border-purple-800 border-[2px]'>
+          <h1>magnifico</h1>
+        </div>
+
 
       </header>
 
@@ -23,20 +28,3 @@ function App() {
 
 export default App
 
-{/* <header>
-          <nav className='headerNavBar'>
-          <section></section>
-          </nav>
-        </header>
-        <main>
-          <section>
-            <section></section>
-            <section></section>
-            <section></section>
-          </section>
-          <section>
-            <article>
-
-            </article>
-          </section>
-        </main> */}
