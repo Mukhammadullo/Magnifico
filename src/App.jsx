@@ -92,17 +92,43 @@ function App() {
 
 
       {/* section4 */}
-      <section className='w-[100%] h-[80vh]  flex'>
-        <div className='w-[50%] h-[80vh]  flex justify-center items-center'>
-          <img src='src/assets/section1.png' />
-        </div>
+      <section className='w-[95%] m-auto h-[80vh]  flex'>
         <div className='w-[50%] h-[80vh]  flex flex-col justify-center'>
-          <h1 className='text-[55px] font-bold'>Enjoy your time <br /> working</h1>
+          <h1 className='text-[55px] font-bold'>Improve workflow</h1>
+
+          <div className='flex'>
+            <div className='w-[160px] h-[40px] border-solid border-black-100 border-[2px]'>Research</div>
+            <div className='w-[160px] h-[40px] border-solid border-black-100 border-[2px]'>Plan</div>
+            <div className='w-[160px] h-[40px] border-solid border-black-100 border-[2px]'>Design</div>
+          </div>
+
           <p className='text-[#475569] text-[18px] m-[5px]'>Etiam condimentum duis molestie malesuada volutpat pellentesque sed.<br /> Ornare suspendisse ut ac neque lobortis sed tincidunt. Mi tempus quis <br /> massa tellus imperdiet aenean nulla id.</p>
           <p className='text-[#2563EB] text-[16px] m-[5px]'>See how it helped others</p>
         </div>
+        <div className='w-[50%] h-[80vh]  flex justify-center items-center'>
+          <img src='src/assets/Left (2).png' />
+        </div>
       </section>
 
+
+      {/* footer */}
+
+      <footer className='w-[100%] h-[10vh]  flex justify-between items-center'>
+
+        <div className='flex ml-[10px]'>
+          <p className='font-bold'>magnifico</p>
+          <p>@ 2023. All rights reserved.</p>
+        </div>
+
+        <ul className='flex mr-[10px]'>
+          <li className='m-[5px]'>Terms</li>
+          <li className='m-[5px]'>Privacy</li>
+          <li className='m-[5px]'>Support</li>
+          <li className='m-[5px]'>About</li>
+          <li className='m-[5px]'>Resources</li>
+          <li className='m-[5px]'>Contact</li>
+        </ul>
+      </footer>
 
     </>
   )
