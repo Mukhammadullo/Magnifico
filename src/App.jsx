@@ -12,7 +12,7 @@ function App() {
 
 
       {/*# header */}
-      <header className='w-[100%] h-[100vh]  border-solid border-red-500 border-[2px]'>
+      <header className='w-[100%] h-[100vh] '>
         {/* navbar */}
         <div className='w-[100%] h-[12vh] border-solid border-purple-800 border-[2px] flex justify-between items-center'>
           <h1 className='font-bold text-[26px] ml-[10px]'>magnifico</h1>
@@ -37,11 +37,11 @@ function App() {
         <div className='w-[95%] m-auto flex justify-center'>
 
           {/* card_left */}
-          <div className='w-[50%] h-[85vh] border-solid border-red-700 border-[2px] flex flex-col justify-center'>
+          <div className='w-[50%] h-[85vh]  flex flex-col justify-center'>
             <h1 className='text-[60px] font-bold'>Team projects, <br /> done well</h1>
             <p className='text-[#475569]'>The only platform that gives your team all the tools needed to work <br /> together on their awesome projects. </p>
             <div>
-              <input placeholder='Enter work email'  className='w-[280px] h-[8vh] rounded-[12px] m-[12px] border-solid border-black-100 border-[2px] ' />
+              <input placeholder='Enter work email' className='w-[300px] h-[7vh] rounded-[12px] m-[12px] border-solid border-black-100 border-[2px] ' />
               <button className=' w-[150px] h-[7vh] text-[white] rounded-[12px] bg-[#2563EB]'>Sign Up Free</button>
               <img src='src/assets/1.png' />
             </div>
@@ -49,11 +49,26 @@ function App() {
 
 
           {/* card_right */}
-          <div className='w-[50%] h-[85vh] border-solid border-red-700 border-[2px]'></div>
+          <div className='w-[50%] h-[85vh]   flex justify-center items-center'>
+            <img src='src/assets/Left.png' />
+          </div>
 
         </div>
 
       </header>
+
+
+      {/* section1 */}
+      <section className='w-[100%] h-[80vh] border-solid border-red-600 border-[2px] flex'>
+        <div className='w-[50%] h-[80vh] border-solid border-red-500 border-[2px] flex justify-center items-center'>
+          <img src='src/assets/section1.png' />
+        </div>
+        <div className='w-[50%] h-[80vh] border-solid border-red-500 border-[2px] flex flex-col justify-center'>
+          <h1 className='text-[55px] font-bold'>Enjoy your time <br /> working</h1>
+          <p className='text-[#475569] text-[18px] m-[5px]'>Etiam condimentum duis molestie malesuada volutpat pellentesque sed.<br /> Ornare suspendisse ut ac neque lobortis sed tincidunt. Mi tempus quis <br /> massa tellus imperdiet aenean nulla id.</p>
+          <p className='text-[#2563EB] text-[16px] m-[5px]'>See how it helped others</p>
+        </div>
+      </section>
 
 
     </>
