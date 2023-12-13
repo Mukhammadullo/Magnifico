@@ -72,14 +72,14 @@ function App() {
 
 
       {/* section2 */}
-      <section className='w-[100%] h-[80vh] border-solid border-red-500 border-[2px] flex '>
+      <section className='w-[95%] h-[80vh]  m-auto flex '>
         <div className='w-[50%] h-[80vh]  flex flex-col justify-center'>
           <h1 className='text-[55px] font-bold'>Enjoy your time <br /> working</h1>
           <p className='text-[#475569] text-[18px] m-[5px]'>Etiam condimentum duis molestie malesuada volutpat pellentesque sed.<br /> Ornare suspendisse ut ac neque lobortis sed tincidunt. Mi tempus quis <br /> massa tellus imperdiet aenean nulla id.</p>
           <p className='text-[#2563EB] text-[16px] m-[5px]'>See how it helped others</p>
         </div>
         <div className='w-[50%] h-[80vh]  flex justify-center items-center'>
-          <img src='src/assets/section1.png' />
+          <img src='src/assets/Right.png' />
         </div>
       </section>
 
