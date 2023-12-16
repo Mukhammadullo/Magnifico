@@ -12,10 +12,10 @@ function App() {
 
 
       {/*# header */}
-      <header className='w-[100%] h-[100vh] '>
+      <header className='w-[100%]   h-[100vh]   '>
         {/* navbar */}
-        <div className='w-[100%] h-[12vh] border-solid border-purple-800 border-[2px] flex justify-between items-center'>
-          <h1 className='font-bold text-[26px] ml-[10px]'>magnifico</h1>
+        <div className='w-[100%] h-[12vh]  flex justify-between items-center'>
+          <h1 className='font-bold text-[26px] ml-[10px] '>magnifico</h1>
 
           <ul className='flex'>
             <li className='font-bold text-[14px] m-[15px]'>Products</li>
